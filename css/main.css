@@ -1,0 +1,348 @@
+/* Fonts start */
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* hind-madurai-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/hind-madurai-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* hind-madurai-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/hind-madurai-v11-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* hind-madurai-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/hind-madurai-v11-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+/* fredoka-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fredoka-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fredoka-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/fredoka-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* Fonts end */
+
+/* Main styles start */
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+:root{
+    --clr-pink: #D23166;
+}
+
+.container{
+    width: 1125px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Main styles end */
+
+
+
+/* Header section start */
+.header {
+    background-color: rgba(242, 206, 218, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header__wrapper {
+    padding: 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav a{
+    color: #150101;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    opacity: 0.6;
+}
+
+.header__nav a:hover{
+    opacity: 1;
+    color: var(--clr-pink);
+    transition: 0.3s;
+}
+
+.header__buy-now a{
+    background-color: var(--clr-pink);
+    padding: 14px 50px 13px 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: #FAFAFA;
+}
+
+.header__buy-now a:hover{
+    color: var(--clr-pink);
+    background-color: #FAFAFA;
+    border: 2px solid var(--clr-pink);
+    transition: 0.3s;
+}
+
+/* Header section end */
+
+/* Home section start */
+.home {
+    padding-top: 50px;
+    background-color: rgba(242, 206, 218, 0.6);
+    height: 800px;
+}
+.home__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home__content-left {
+    width: 665px;
+    height: 364px;
+    padding-top: 159px;
+}
+
+.home__content-left p:nth-child(1){
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #0F0101;
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+.home__content-left h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 57.33px;
+    font-weight: 400;
+    line-height: 69.08px;
+    text-align: left;
+    color: #0F0101;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.home__content-left p:nth-child(3){
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #0F0101;
+    opacity: 0.6;
+    width: 523px;
+    padding-bottom: 50px;
+}
+
+.home__content-left a{
+    background-color: var(--clr-pink);
+    padding: 16px 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: #FAFAFA;
+}
+
+.home__content-left a:hover{
+    color: var(--clr-pink);
+    background-color: #FAFAFA;
+    border: 2px solid var(--clr-pink);
+    transition: 0.3s;
+}
+
+.home__content-right {
+    width: 665px;
+    height: 364px;
+}
+
+.home__content-right img{
+    margin: 0;
+    padding-top: 39px;
+}
+/* Home section end */
+
+/* Features section */
+.features {
+    padding: 100px 0 100px;
+}
+.features__wrapper {
+    width: 1117px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features__item {
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    padding: 33px 26px 27px 26px;
+}
+
+.features__item:hover{
+    box-shadow: 20px 20px 50px 0px #0000001A;
+    transition: 0.3s;
+}
+
+.features__item img{
+    margin-bottom: 24.65px;
+}
+
+.features__item h2{
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.6px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 9px;
+
+}
+
+.features__item p{
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    text-align: center;
+    opacity: 0.6;
+    color: #000000;
+}
+
+/* Features section end */
+
+/* Brown Sugar section */
+.sugar {
+    background-color: rgba(242, 206, 218, 0.6);
+    padding: 50px 0 50px;
+}
+.sugar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sugar__content-left {
+    width: 442px;
+}
+
+.sugar__content-left h1{
+    font-family: Hind Madurai;
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    text-align: left;
+    color: #150101;
+    padding-bottom: 16px;;
+}
+
+.sugar__content-left p{
+    width: 442px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #150101;
+    opacity: 0.6;
+    padding-bottom: 35px;
+}
+
+.sugar__content-left a{
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 42px;
+    border-radius: 5px;
+    background-color: var(--clr-pink);
+    color: #FAFAFA;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.sugar__content-left a:hover{
+    color: var(--clr-pink);
+    background-color: #FAFAFA;
+    border: 2px solid var(--clr-pink);
+    transition: 0.3s;
+}
+/* Brown Sugar section */

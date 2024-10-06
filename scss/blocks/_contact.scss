@@ -1,0 +1,61 @@
+/* Секция с формой */
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h1 {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 51.56px;
+    text-align: center;
+    color: #150101;
+    width: 522px;    
+    padding-bottom: 36px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    padding-bottom: 37px;
+    width: 640px;
+    margin: 0 auto;
+}
+
+input{
+    flex: 1;
+    padding: 30px 25px;
+    border: 1px solid #F28EA0;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-right: 30px;
+}
+
+.question {
+    margin: 0;
+    position: relative;
+}
+
+input:focus {
+    border-color: #d23166;
+}
+
+button {
+    background-color: #d23166;
+    border: none;
+    padding: 25px 45px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover {
+    background-color: #c02456;
+}

@@ -1,0 +1,56 @@
+.header {
+    background-color: rgba(242, 206, 218, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header__wrapper {
+    padding: 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav a{
+    color: #150101;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    opacity: 0.6;
+}
+
+.header__nav a:hover{
+    opacity: 1;
+    color: var(--clr-pink);
+    transition: 0.3s;
+}
+
+.header__buy-now a{
+    background-color: var(--clr-pink);
+    padding: 14px 50px 13px 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: #FAFAFA;
+}
+
+.header__buy-now a:hover{
+    color: var(--clr-pink);
+    background-color: #FAFAFA;
+    border: 2px solid var(--clr-pink);
+    transition: 0.3s;
+}

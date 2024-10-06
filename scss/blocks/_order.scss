@@ -1,0 +1,80 @@
+.order {
+    background-color: #F8EDF0;
+    padding: 50px 0 45px;
+}
+.order__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order__right {
+    padding-left: 121px;
+}
+
+.order__right h1{
+    font-family: Roboto;
+    font-size: 44.2px;
+    font-weight: 500;
+    line-height: 51.8px;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 20px;    
+}
+
+.order__right p{
+    width: 607px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    letter-spacing: 0.01em;
+    text-align: left; 
+    color: #0F0101;
+    opacity: 0.7;
+    padding-bottom: 31px;
+}
+
+.order__right-select p{
+    padding-top: 30px;    
+}
+.order__right-select-select-food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.order__right-select-p{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.78px;
+    text-align: left;
+    color: #000000; 
+
+}
+
+.order__right-links {
+    padding-top: 34px;
+}
+
+.order__right-links a{
+    padding: 16px 50px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    font-family:hind Madurai;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: #FAFAFA;
+    margin-right: 10px;
+    background-color: #000000;
+}
+
+.order__right-links a:hover {
+    color: #000000;
+    background-color: #FAFAFA;
+    border: 2px solid #000000;
+    transition: 0.3s;
+}

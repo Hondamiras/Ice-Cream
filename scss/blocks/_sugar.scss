@@ -1,0 +1,54 @@
+.sugar {
+    background-color: rgba(242, 206, 218, 0.6);
+    padding: 50px 0 50px;
+}
+.sugar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sugar__content-left {
+    width: 442px;
+}
+
+.sugar__content-left h1{
+    font-family: Hind Madurai;
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    text-align: left;
+    color: #150101;
+    padding-bottom: 16px;;
+}
+
+.sugar__content-left p{
+    width: 442px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #150101;
+    opacity: 0.6;
+    padding-bottom: 35px;
+}
+
+.sugar__content-left a{
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 42px;
+    border-radius: 5px;
+    background-color: var(--clr-pink);
+    color: #FAFAFA;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.sugar__content-left a:hover{
+    color: var(--clr-pink);
+    background-color: #FAFAFA;
+    border: 2px solid var(--clr-pink);
+    transition: 0.3s;
+}

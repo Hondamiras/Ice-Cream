@@ -1,0 +1,23 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+:root{
+    --clr-pink: #D23166;
+}
+
+.container{
+    width: 1125px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}

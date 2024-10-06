@@ -1,0 +1,48 @@
+.features {
+    padding: 100px 0 100px;
+}
+.features__wrapper {
+    width: 1117px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features__item {
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    padding: 33px 26px 27px 26px;
+}
+
+.features__item:hover{
+    box-shadow: 20px 20px 50px 0px #0000001A;
+    transition: 0.3s;
+}
+
+.features__item img{
+    margin-bottom: 24.65px;
+}
+
+.features__item h2{
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.6px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 9px;
+
+}
+
+.features__item p{
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    text-align: center;
+    opacity: 0.6;
+    color: #000000;
+}
